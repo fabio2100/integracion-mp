@@ -27,7 +27,6 @@ export default function Home() {
       <p className={styles.description}>
         Este es un ejemplo de una aplicación Next.js con Mercado Pago.
       </p>
-      {console.log(preference)}
       {preference ? (
         <Wallet
           initialization={{ preferenceId: preference.id }}
